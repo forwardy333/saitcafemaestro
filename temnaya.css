@@ -1,0 +1,315 @@
+/* ========== ТЕМНАЯ ТЕМА ========== */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-theme .text2 {
+    color: #f0f0f0;
+}
+
+body.dark-theme .text2:hover {
+    color: #ff6b6b;
+}
+
+body.dark-theme .text222 {
+    color: #f0f0f0;
+}
+
+body.dark-theme .text222:hover {
+    color: #ff6b6b;
+}
+
+body.dark-theme .nazvtext {
+    color: #f0f0f0;
+}
+
+body.dark-theme .nastext,
+body.dark-theme .brontext,
+body.dark-theme .xittext,
+body.dark-theme .zagpodval {
+    color: #ff6b6b;
+}
+
+body.dark-theme .nas1,
+body.dark-theme .nas2,
+body.dark-theme .nas3 {
+    background-color: #2a2a2a;
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .nastext0 {
+    color: #f0f0f0;
+}
+
+body.dark-theme .nastext1 {
+    color: #aaa;
+}
+
+body.dark-theme .dan {
+    color: #f0f0f0;
+}
+
+body.dark-theme .vvoddan {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #666;
+}
+
+body.dark-theme .vvoddan::placeholder {
+    color: #888;
+}
+
+body.dark-theme .contacttext1,
+body.dark-theme .contacttext2,
+body.dark-theme .clocktext {
+    color: #f0f0f0;
+}
+
+body.dark-theme .cafepod {
+    color: #ccc;
+}
+
+body.dark-theme .modalcontent {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .modalzag {
+    color: #ff6b6b;
+}
+
+body.dark-theme .modaltext {
+    color: #ccc;
+}
+
+body.dark-theme .btn,
+body.dark-theme .btnnas,
+body.dark-theme .btnbron,
+body.dark-theme .modalbtn,
+body.dark-theme .add-to-cart-btn,
+body.dark-theme .cart-empty-btn,
+body.dark-theme .cart-checkout-btn {
+    background-color: #ff6b6b;
+}
+
+body.dark-theme .btn:hover,
+body.dark-theme .btnnas:hover,
+body.dark-theme .btnbron:hover,
+body.dark-theme .modalbtn:hover,
+body.dark-theme .add-to-cart-btn:hover,
+body.dark-theme .cart-empty-btn:hover,
+body.dark-theme .cart-checkout-btn:hover {
+    background-color: #ff5252;
+}
+
+body.dark-theme .slider {
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .prev,
+body.dark-theme .next {
+    background-color: #ff6b6b;
+}
+
+body.dark-theme .prev:hover,
+body.dark-theme .next:hover {
+    background-color: #ff5252;
+}
+
+body.dark-theme .dot {
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .dot.active,
+body.dark-theme .dot:hover {
+    background-color: #ff6b6b;
+}
+
+body.dark-theme .xitlin,
+body.dark-theme .naslin,
+body.dark-theme .bronlin,
+body.dark-theme .liniyapodval,
+body.dark-theme .cart-title-line,
+body.dark-theme .cart-items-header,
+body.dark-theme .cart-summary-total {
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .knopka-vverh {
+    background-color: #ff6b6b;
+}
+
+body.dark-theme .knopka-vverh:hover {
+    background-color: #ff5252;
+}
+
+body.dark-theme .nashatext {
+    color: #ff6b6b;
+}
+
+body.dark-theme .nashalin {
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .istoriatext,
+body.dark-theme .filosofiyatext,
+body.dark-theme .interiertext,
+body.dark-theme .menupodlin,
+body.dark-theme .goropisanie,
+body.dark-theme .cart-product-desc,
+body.dark-theme .cart-empty-text,
+body.dark-theme .cart-info p {
+    color: #f0f0f0;
+}
+
+body.dark-theme .breadcrumbs {
+    color: #aaa;
+}
+
+body.dark-theme .breadcrumbs a {
+    color: #ff6b6b;
+}
+
+body.dark-theme .breadcrumbs a:hover {
+    color: #ff5252;
+}
+
+body.dark-theme .breadcrumbs a:last-child {
+    color: #ccc;
+}
+
+body.dark-theme .breadcrumbs span {
+    color: #666;
+}
+
+body.dark-theme hr {
+    border-color: #333;
+}
+
+body.dark-theme .menutext,
+body.dark-theme .gorzag1,
+body.dark-theme .garzag1,
+body.dark-theme .napzag1,
+body.dark-theme .salatzag1,
+body.dark-theme .cypzag1,
+body.dark-theme .cart-title {
+    color: #ff6b6b;
+}
+
+body.dark-theme .menulin,
+body.dark-theme .gorlin,
+body.dark-theme .garlin,
+body.dark-theme .naplin,
+body.dark-theme .salatlin,
+body.dark-theme .cyplin,
+body.dark-theme .gorlin1 {
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .stolovka,
+body.dark-theme .banketnoe1,
+body.dark-theme .gornav1,
+body.dark-theme .cypnav1,
+body.dark-theme .garnav1,
+body.dark-theme .salatnav1,
+body.dark-theme .napnav1 {
+    background-color: #ff6b6b;
+}
+
+body.dark-theme .stolovka1,
+body.dark-theme .banketnoe,
+body.dark-theme .cypnav,
+body.dark-theme .garnav,
+body.dark-theme .salatnav,
+body.dark-theme .napnav,
+body.dark-theme .gornav {
+    background-color: #2a2a2a;
+    border-color: #ff6b6b;
+    color: #f0f0f0;
+}
+
+body.dark-theme .stolzag,
+body.dark-theme .stolpodzag,
+body.dark-theme .banketzag,
+body.dark-theme .banketpodzag,
+body.dark-theme .gornavtext,
+body.dark-theme .cypnavtext,
+body.dark-theme .garnavtext,
+body.dark-theme .salatnavtext,
+body.dark-theme .napnavtext {
+    color: #f0f0f0;
+}
+
+body.dark-theme .gor1,
+body.dark-theme .gor2,
+body.dark-theme .gor3,
+body.dark-theme .gor4,
+body.dark-theme .gor5,
+body.dark-theme .cart-item,
+body.dark-theme .cart-summary,
+body.dark-theme .cart-promo,
+body.dark-theme .cart-empty {
+    background-color: #2a2a2a;
+    border-color: #ff6b6b;
+}
+
+body.dark-theme .gorzag span,
+body.dark-theme .cart-product-info h4,
+body.dark-theme .cart-item-total,
+body.dark-theme .cart-summary-row,
+body.dark-theme .cart-summary-total {
+    color: #f0f0f0;
+}
+
+body.dark-theme .gorcena,
+body.dark-theme .cart-price,
+body.dark-theme .cart-summary-total span:last-child,
+body.dark-theme .order-total-modal span:last-child {
+    color: #ff6b6b;
+}
+
+body.dark-theme .cart-quantity-btn {
+    background-color: #2a2a2a;
+    border-color: #ff6b6b;
+    color: #ff6b6b;
+}
+
+body.dark-theme .cart-quantity-btn:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+body.dark-theme .cart-quantity-input,
+body.dark-theme .cart-promo-input {
+    background-color: #333;
+    color: #f0f0f0;
+    border-color: #666;
+}
+
+body.dark-theme .cart-remove-btn {
+    color: #999;
+}
+
+body.dark-theme .cart-remove-btn:hover {
+    color: #ff6b6b;
+}
+
+body.dark-theme .cart-info,
+body.dark-theme .order-total-modal {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-theme .cart-promo-btn {
+    background-color: #555;
+}
+
+body.dark-theme .cart-promo-btn:hover {
+    background-color: #777;
+}
+
+body.dark-theme .go-top img {
+    filter: brightness(0.8);
+}

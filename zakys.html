@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холодные закуски - Кафе-столовая Maestro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temnaya.css">
+    <link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="shapka">
+                <img class="logo" src="images/logo.png" alt="Логотип">
+                <li class="text11"><a class="text22">Maestro</a></li>
+                <nav class="nav-menu">
+                    <input type="checkbox" id="burger-toggle">
+                    <label for="burger-toggle" class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="shapkatext">
+                        <li class="text1"><a class="text2" href="glavnaya.html">Главная</a></li>
+                        <li class="text1"><a class="text2" href="onas.html">О нас</a></li>
+                        <li class="text1"><a class="text2" href="menustolovya1.html">Меню</a></li>
+                        <li class="cart-icon-container">
+                            <a href="cart.html" class="cart-icon-link">
+                                <img class="cart-icon" src="images/cart.png" alt="Корзина">
+                                <span class="cart-count" id="cartCount">0</span>
+                            </a>
+                        </li>
+                        <li class="text111"><img class="text222" src="images/tema.png" alt="Смена темы"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> 
+    <hr>
+    <main>
+        <div class="menustol1-container">
+            <div class="menutext">Наше меню</div>
+            <hr class="menulin">
+            <p class="menupodlin">"Вкус на все случаи жизни — от быстрого <br> обеда до роскошного праздника."</p>
+            
+            <div class="stolbanket">
+                <a href="gor.html" class="stolovka-link">
+                    <div class="stolovka1">
+                        <img src="images/stolovka2.png" alt="Столовое меню">
+                        <h2 class="stolzag">Столовое меню</h2>
+                        <p class="stolpodzag">Повседневное · Доступное · Быстро</p>
+                    </div>
+                </a>
+                <a href="obgor.html" class="banketnoe-link">
+                    <div class="banketnoe1">
+                        <img src="images/banket2.png" alt="Банкетное меню">
+                        <h2 class="banketzag">Банкетное меню</h2>
+                        <p class="banketpodzag">Праздничное · Премиум · Комплексное</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="menunav">
+                <a href="obgor.html" class="gornav-link">
+                    <div class="gornav">
+                        <p class="gornavtext">Общее горячее</p>
+                    </div>
+                </a>
+                <a href="gar1.html" class="cypnav-link">
+                    <div class="cypnav">
+                        <p class="cypnavtext">Гарниры</p>
+                    </div>
+                </a>
+                <a href="salat1.html" class="garnav-link">
+                    <div class="garnav">
+                        <p class="garnavtext">Салаты</p>
+                    </div>
+                </a>
+                <a href="zakys.html" class="salatnav-link">
+                    <div class="salatnav1">
+                        <p class="salatnavtext">Холодные закуски</p>
+                    </div>
+                </a>
+                <a href="gor1.html" class="napnav-link">
+                    <div class="napnav">
+                        <p class="napnavtext">Горячие блюда</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gorzag1">Холодные закуски</div>
+            <hr class="gorlin">
+            
+            <div class="gor-container">
+                <!-- 1 ряд -->
+                <div class="gor1ryd">
+                    <!-- Ассорти мясное-сырное -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys1.png" alt="Ассорти мясное-сырное">
+                        <h2 class="gorzag">
+                            <span>Ассорти мясное-сырное</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Карбонат, сервелат п/к, колбаса с/к, сыр гауда, сыр голландский</p>
+                        <button class="add-to-cart-btn" data-product-id="assorti-myasnoe-syrnoe">В корзину</button>
+                    </div>
+                    
+                    <!-- Ассорти овощное -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys2.png" alt="Ассорти овощное">
+                        <h2 class="gorzag">
+                            <span>Ассорти овощное</span>
+                            <p class="gorcena">750 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Огурцы, помидоры, перец, зелень, лист салата</p>
+                        <button class="add-to-cart-btn" data-product-id="assorti-ovoshnoe">В корзину</button>
+                    </div>
+                    
+                    <!-- Ассорти сырное -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys3.png" alt="Ассорти сырное">
+                        <h2 class="gorzag">
+                            <span>Ассорти сырное</span>
+                            <p class="gorcena">950 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Сыр «Российский», сыр «Сулугуни», сыр «Дор-блю», сыр «Косичка», зелень, мед, грецкий орех</p>
+                        <button class="add-to-cart-btn" data-product-id="assorti-syrnoe">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 2 ряд -->
+                <div class="gor2ryd">
+                    <!-- Рыбное плато -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys4.png" alt="Рыбное плато">
+                        <h2 class="gorzag">
+                            <span>Рыбное плато</span>
+                            <p class="gorcena">1100 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Балык, семга м/с, скумбрия, зелень, лимон, маслины</p>
+                        <button class="add-to-cart-btn" data-product-id="rybnoe-plato">В корзину</button>
+                    </div>
+                    
+                    <!-- Ассорти фруктовое -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys5.png" alt="Ассорти фруктовое">
+                        <h2 class="gorzag">
+                            <span>Ассорти фруктовое</span>
+                            <p class="gorcena">600 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Банан, киви, апельсин, яблоко, груша, сахарная пудра</p>
+                        <button class="add-to-cart-btn" data-product-id="assorti-fruktovoe">В корзину</button>
+                    </div>
+                    
+                    <!-- Бутерброд с красной икрой -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys6.png" alt="Бутерброд с красной икрой">
+                        <h2 class="gorzag">
+                            <span>Бутерброд с красной икрой</span>
+                            <p class="gorcena">250 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Батон, масло сливочное, икра красная, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="buterbrod-krasnaya-ikra">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 3 ряд -->
+                <div class="gor3ryd">
+                    <!-- Бутерброд с семгой -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys7.svg" alt="Бутерброд с семгой">
+                        <h2 class="gorzag">
+                            <span>Бутерброд с семгой</span>
+                            <p class="gorcena">220 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Батон, масло сливочное, семга м/с, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="buterbrod-semga">В корзину</button>
+                    </div>
+                    
+                    <!-- Закуска инвариантная с семгой -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys8.svg" alt="Закуска инвариантная с семгой">
+                        <h2 class="gorzag">
+                            <span>Закуска инвариантная с семгой</span>
+                            <p class="gorcena">750 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Омлетный блинчик, майонез, семга, сыр, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-invariantnaya-semga">В корзину</button>
+                    </div>
+                    
+                    <!-- Рулетики с ветчиной и сыром -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys9.svg" alt="Рулетики с ветчиной и сыром">
+                        <h2 class="gorzag">
+                            <span>Рулетики с ветчиной и сыром</span>
+                            <p class="gorcena">650 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Ветчина, сыр «Российский», майонез, чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="ruletiki-vetchina-syr">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 4 ряд -->
+                <div class="gor4ryd">
+                    <!-- Грибочки соленые -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys10.svg" alt="Грибочки соленые">
+                        <h2 class="gorzag">
+                            <span>Грибочки соленые</span>
+                            <p class="gorcena">350 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Грибы сол., лук, уксус, масло растительное, зеленый горошек, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="gribochki-solenye">В корзину</button>
+                    </div>
+                    
+                    <!-- Закуска «Золотая рыбка» -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys11.svg" alt="Закуска Золотая рыбка">
+                        <h2 class="gorzag">
+                            <span>Закуска «Золотая рыбка»</span>
+                            <p class="gorcena">800 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Филе телятины, хрен, зелень, лимон, соус</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-zolotaya-rybka">В корзину</button>
+                    </div>
+                    
+                    <!-- Закуска «Сеньор памир» -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys12.svg" alt="Закуска Сеньор памир">
+                        <h2 class="gorzag">
+                            <span>Закуска «Сеньор помидор»</span>
+                            <p class="gorcena">600 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Помидоры, сыр «Российский», чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-senor-pamir">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 5 ряд -->
+                <div class="gor5ryd">
+                    <!-- Закуска «Пикантная» -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys13.svg" alt="Закуска Пикантная">
+                        <h2 class="gorzag">
+                            <span>Закуска «Пикантная»</span>
+                            <p class="gorcena">650 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Омлетный блинчик, сыр «Российский», чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-pikantnaya">В корзину</button>
+                    </div>
+                    
+                    <!-- Закуска «Маэстро» -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys14.svg" alt="Закуска Маэстро">
+                        <h2 class="gorzag">
+                            <span>Закуска «Маэстро»</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Омлетный блинчик, язык отварной, сыр «Российский», чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-maestro">В корзину</button>
+                    </div>
+                    
+                    <!-- Закуска «Термогенская» -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys15.svg" alt="Закуска Термогенская">
+                        <h2 class="gorzag">
+                            <span>Закуска «Термогенская»</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Сало соленое, сало копченое, горчица, огурец соленый, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="zakuska-termogenskaya">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 6 ряд -->
+                <div class="gor1ryd">
+                    <!-- Печеночные сладкие -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys16.svg" alt="Печеночные оладья">
+                        <h2 class="gorzag">
+                            <span>Печеночные оладья</span>
+                            <p class="gorcena">750 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Печень говяжья, лук, морковь, чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="pechenochnye-sladkie">В корзину</button>
+                    </div>
+                    
+                    <!-- Сушка лесенки -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys17.svg" alt="Сумка лесенки">
+                        <h2 class="gorzag">
+                            <span>Сумка лесенки</span>
+                            <p class="gorcena">550 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Помидоры сои, огурцы сои, капуста сои, грибы сои, морковь, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="sushka-lesenki">В корзину</button>
+                    </div>
+                    
+                    <!-- Медальоны из баклажана по-восточному -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys18.svg" alt="Медальоны из баклажана">
+                        <h2 class="gorzag">
+                            <span>Медальоны из баклажан</span>
+                            <p class="gorcena">650 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Баклажаны жар., помидор, чеснок, сыр, зелень (запеченные)</p>
+                        <button class="add-to-cart-btn" data-product-id="medalony-baklazhan">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 7 ряд -->
+                <div class="gor2ryd">
+                    <!-- Рулет из баклажан с грецким орехом -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys19.svg" alt="Рулет из баклажан">
+                        <h2 class="gorzag">
+                            <span>Рулет из баклажан с грецким орехом</span>
+                            <p class="gorcena">650 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Баклажан, перец сои, чеснок, майонез, грецкий орех</p>
+                        <button class="add-to-cart-btn" data-product-id="rulet-baklazhan-oreh">В корзину</button>
+                    </div>
+                    
+                    <!-- Кабачки жареные -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys20.svg" alt="Кабачки жареные">
+                        <h2 class="gorzag">
+                            <span>Кабачки жареные</span>
+                            <p class="gorcena">550 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Кабачки, помидоры, майонез, чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="kabachki-zharenye">В корзину</button>
+                    </div>
+                    
+                    <!-- Рулет куриный с грибами -->
+                    <div class="gor2">
+                        <img class="gorphoto" src="images/zakys21.svg" alt="Рулет куриный с грибами">
+                        <h2 class="gorzag">
+                            <span>Рулет куриный с грибами</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Курица, яйцо, грибы жар., зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="rulet-kurinyi-griby">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 8 ряд -->
+                <div class="gor3ryd">
+                    <!-- Рулет куриный с ветчиной -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys22.svg" alt="Рулет куриный с ветчиной">
+                        <h2 class="gorzag">
+                            <span>Рулет куриный с ветчиной</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Курица, морковь, яйцо, ветчина, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="rulet-kurinyi-vetchina">В корзину</button>
+                    </div>
+                    
+                    <!-- Тарталетка с грибами -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys23.svg" alt="Тарталетка с грибами">
+                        <h2 class="gorzag">
+                            <span>Тарталетка с грибами</span>
+                            <p class="gorcena">650 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Тарталетка, грибы жар., майонез, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="tartaletka-griby">В корзину</button>
+                    </div>
+                    
+                    <!-- Тарталетка Жульен -->
+                    <div class="gor3">
+                        <img class="gorphoto" src="images/zakys24.svg" alt="Тарталетка Жульен">
+                        <h2 class="gorzag">
+                            <span>Тарталетка Жульен</span>
+                            <p class="gorcena">800 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Тарталетка, грибы жар., курица груз., сметана, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="tartaletka-zhulen">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 9 ряд -->
+                <div class="gor4ryd">
+                    <!-- Тарталетка с мясом и сыром -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys25.svg" alt="Тарталетка с мясом и сыром">
+                        <h2 class="gorzag">
+                            <span>Тарталетка с мясом и сыром</span>
+                            <p class="gorcena">700 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Тарталетка, фарш, сыр «Российский», майонез, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="tartaletka-myaso-syr">В корзину</button>
+                    </div>
+                    
+                    <!-- Тарталетка с креветками и сыром -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys26.svg" alt="Тарталетка с креветками">
+                        <h2 class="gorzag">
+                            <span>Тарталетка с креветками и сыром</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Тарталетка, креветки, помидор, сыр «Российский», майонез, чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="tartaletka-krevetki">В корзину</button>
+                    </div>
+                    
+                    <!-- Торт печеночный -->
+                    <div class="gor4">
+                        <img class="gorphoto" src="images/zakys27.svg" alt="Торт печеночный">
+                        <h2 class="gorzag">
+                            <span>Торт печеночный</span>
+                            <p class="gorcena">750 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Печень говяжья, лук, морковь, чеснок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="tort-pechenochnyi">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 10 ряд -->
+                <div class="gor5ryd">
+                    <!-- Селедочка под водочку -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys28.svg" alt="Селедочка под водочку">
+                        <h2 class="gorzag">
+                            <span>Селедочка под водочку</span>
+                            <p class="gorcena">500 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Филе сельди, лук мар., картофель отв., зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="seledochka-pod-vodochku">В корзину</button>
+                    </div>
+                    
+                    <!-- Язык говяжий с хреном -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys29.svg" alt="Язык говяжий с хреном">
+                        <h2 class="gorzag">
+                            <span>Язык говяжий с хреном</span>
+                            <p class="gorcena">1300 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Язык говяжий, хрен столовый, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="yazyk-govyazhiy-hren">В корзину</button>
+                    </div>
+                    
+                    <!-- Язык говяжий в сливочном соусе с грибами -->
+                    <div class="gor5">
+                        <img class="gorphoto" src="images/zakys30.svg" alt="Язык в сливочном соусе">
+                        <h2 class="gorzag">
+                            <span>Язык говяжий с грибами</span>
+                            <p class="gorcena">1500 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Язык говяжий, сливки, грибы жарен.</p>
+                        <button class="add-to-cart-btn" data-product-id="yazyk-slivki-griby">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- 11 ряд -->
+                <div class="gor1ryd">
+                    <!-- Семга малосоленая -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys31.svg" alt="Семга малосоленая">
+                        <h2 class="gorzag">
+                            <span>Семга малосоленая</span>
+                            <p class="gorcena">1000 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Семга м/с, лимон, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="semga-malosolenaya">В корзину</button>
+                    </div>
+                    
+                    <!-- Крылья острые жареные по-грузински -->
+                    <div class="gor1">
+                        <img class="gorphoto" src="images/zakys32.svg" alt="Крылья по-грузински">
+                        <h2 class="gorzag">
+                            <span>Крылья острые жареные по-грузински</span>
+                            <p class="gorcena">850 ₽</p>
+                        </h2>
+                        <p class="goropisanie">Куриные крылья, аджика, виноградный сок, зелень</p>
+                        <button class="add-to-cart-btn" data-product-id="krylya-po-gruzinski">В корзину</button>
+                    </div>
+                    
+                    <!-- Пустая карточка для выравнивания (можно скрыть) -->
+                    <div class="gor1" style="visibility: hidden;">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    
+    <hr class="liniyapodval">
+    
+    <footer>
+        <div class="footer-container">
+            <div class="kafepodval">
+                <h2 class="zagpodval">Кафе "Maestro"</h2>
+                <p class="cafepod">Изысканная кухня и уютная атмосфера в самом<br>центре города. Мы работаем для вас с 2010 года.</p>
+            </div>
+            <div class="contactpodval">
+                <h2 class="zagpodval">Контакты</h2>
+                <a class="contacttext2" href="https://maps.google.com/?q=Оренбург, ул. Терешковой 10" target="_blank" rel="noopener noreferrer"><img src="images/adress.png" alt="Иконка адреса">г. Оренбург, ул. Терешковой 10</a>
+                <a class="contacttext2" href="tel:+73532571788"><img src="images/tell.png" alt="Иконка телефона">+7 (3532) 57-17-88 | +7 (3532) 60-12-59</a>
+                <a class="contacttext2" href="https://vk.com/orenburgkafe" target="_blank" rel="noopener noreferrer"><img src="images/vkk.png" alt="Иконка ВК">orenburgkafe</a>
+                <a class="contacttext2" href="https://www.instagram.com/kafe.maestro?igsh=b2N4ZzA3OGcxd2hm" target="_blank" rel="noopener noreferrer"><img src="images/instaa.png" alt="Иконка Инстаграмма">kafe.maestro</a>
+            </div>
+            <div class="clockpodval">
+                <h2 class="zagpodval">Часы работы</h2>
+                <p class="clocktext">Понедельник - Пятница: 09:00 - 17:00</p>
+                <p class="clocktext">Суббота - Воскресенье: Выходной</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="go-top"><img src="images/strelka.png" alt="Стрелка прокрутки вверх"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

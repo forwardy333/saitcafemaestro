@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе-столовая Maestro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temnaya.css">
+    <link rel="icon" href="images/logo.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="shapka">
+        <img class="logo" src="images/logo.png" alt="Логотип">
+        <div class="text11"><span class="text22">Maestro</span></div>
+        <nav class="nav-menu">
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+            <ul class="shapkatext">
+                <li class="text1"><a class="text2" href="glavnaya.html">Главная</a></li>
+                <li class="text1"><a class="text2" href="onas.html">О нас</a></li>
+                <li class="text1"><a class="text2" href="gor.html">Меню</a></li>
+                <li class="text111"><img class="text222 tema-ikonka" src="images/tema.png" alt="Смена темы" onclick="toggleTheme()"></li>
+            </ul>
+        </nav>
+    </div>
+</header> 
+    <main class="main">
+        <div class="photo">
+            <h1 class="nazv">Кафе-столовая "Maestro"</h1>
+            <p class="nazvtext">Искусство вкуса в каждом блюде. Уютная атмосфера, домашняя кухня и<br>безупречный сервис.</p>
+            <button class="btn" onclick="location.href='gor.html?from=button'">Посмотреть меню</button>
+        </div>
+        <div class="xit-container">
+            <div class="xittext">Наши хиты</div>
+            <hr class="xitlin">
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/slaider0.png" alt="Мясо по-французски">
+                    <div class="slide-text">
+                        <h2>Мясо по-французски</h2>
+                        <p>Свинина, лук, картофель, майонез, сыр, зелень, 180г.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slaider1.png" alt="Грибы фаршированные с сыром">
+                    <div class="slide-text">
+                        <h2>Грибы фаршированные с сыром</h2>
+                        <p>Грибы, сыр, чеснок, майонез, зелень</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slaider2.png" alt="Салат греческий">
+                    <div class="slide-text">
+                        <h2>Греческий салат</h2>
+                        <p>Лист салата, помидор, огурец, перец бол., маслины, сыр пармезан, соус "Цезарь", 180г.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="prev">←</button>
+            <button class="next">→</button>
+            
+            <div class="dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+        
+        <div class="nas-container">
+            <div class="nastext">Почему выбирают нас?</div>
+            <hr class="naslin">
+        </div>
+
+        <div class="onas-container">
+            <div class="nas1">
+                <img class="nasphoto" src="images/nas1.png" alt="Иконка свежих продуктов">
+                <div class="nas1-text">
+                    <h2 class="nastext0">Свежие продукты</h2>
+                    <p class="nastext1">Работаем только с проверенными<br>поставщиками</p>
+                </div>
+            </div>
+            
+            <div class="nas2">
+                <img class="nasphoto" src="images/nas2.png" alt="Иконка уютной атмосферы">
+                <div class="nas2-text">
+                    <h2 class="nastext0">Уютная атмосфера</h2>
+                    <p class="nastext1">Комфорт для семейного ужина и<br>деловых встреч</p>
+                </div>
+            </div>
+            
+            <div class="nas3">
+                <img class="nasphoto" src="images/nas3.png" alt="Иконка профессионалов">
+                <div class="nas3-text">
+                    <h2 class="nastext0">Профессионалы</h2>
+                    <p class="nastext1">Повара с многолетним опытом</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btnnass">
+            <button class="btnnas" onclick="location.href='onas.html?from=button'">Узнать больше о нас</button>
+        </div>
+        
+        <div class="bron-container">
+            <div class="brontext">Контакты и бронирование</div>
+            <hr class="bronlin">
+        </div>
+        
+        <div class="contact-bron-container">
+            <div class="contact">
+                <h2 class="contactstext">Наши контакты</h2>
+                <a class="contacttext1" href="https://maps.google.com/?q=Оренбург, ул. Терешковой 10" target="_blank">
+                    <img src="images/adres.png" alt="Иконка адреса">г. Оренбург, ул. Терешковой 10
+                </a>
+                <a class="contacttext1" href="tel:+73532571788">
+                    <img src="images/tel.png" alt="Иконка телефона">+7 (3532) 57-17-88 | +7 (3532) 60-12-59
+                </a>
+                <a class="contacttext1">
+                    <img src="images/clock.png" alt="Иконка часов">Пн-Пт: 09:00-17:00
+                </a>
+                <div class="social-icons">
+                    <a href="https://vk.com/orenburgkafe" target="_blank"><img class="contactikonki" src="images/vk.png" alt="ВКонтакте"></a>
+                    <a href="https://t.me/maestro_cafe_bot" target="_blank"><img class="contactikonki" src="images/tg.png" alt="Telegram"></a>
+                    <a href="https://www.instagram.com/kafe.maestro?igsh=b2N4ZzA3OGcxd2hm" target="_blank"><img class="contactikonki" src="images/insta.png" alt="Instagram"></a>
+                </div>
+            </div>
+            
+            <div class="bron">
+                <h2 class="brontext1">Забронировать мероприятие</h2>
+                <div class="bron-container1">
+                    <div class="bronforms">
+                        <form class="brondans" id="loginForm">
+                            <div class="vvodgroup">
+                                <p class="dan">Ваше имя *</p>
+                                <input type="text" class="vvoddan" placeholder="Введите ваше имя" id="name" required>
+                            </div>
+                            <div class="vvodgroup">
+                                <p class="dan">Ваша фамилия *</p>
+                                <input type="text" class="vvoddan" placeholder="Введите вашу фамилию" id="fam" required>
+                            </div>
+                            <div class="vvodgroup">
+                                <p class="dan">Ваш телефон *</p>
+                                <input type="tel" class="vvoddan" placeholder="Введите ваш телефон" id="tel" required>
+                            </div>
+                            <div class="vvodgroup">
+                                <p class="dan">Дата мероприятия *</p>
+                                <input type="text" class="vvoddan" placeholder="дд.мм.гггг" id="data" required>
+                            </div>
+                            <div class="vvodgroup">
+                                <p class="dan">Время мероприятия *</p>
+                                <input type="text" class="vvoddan" placeholder="чч:мм" id="clock" required>
+                            </div>
+                            <div class="vvodgroup">
+                                <p class="dan">Количество гостей *</p>
+                                <input type="number" class="vvoddan" placeholder="Введите количество гостей" id="gost" required min="20" max="70">
+                            </div>
+                            <div class="vxodknopki">
+                                <button type="submit" class="btnbron">Отправить заявку</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <hr class="liniyapodval">
+<footer>
+    <div class="footer-container">
+        <div class="kafepodval">
+        <h2 class="zagpodval">Кафе "Maestro"</h2>
+        <p class="cafepod">Изысканная кухня и уютная атмосфера в самом<br>центре города. Мы работаем для вас с 2010 года.</p>
+        </div>
+        <div class="contactpodval">
+        <h2 class="zagpodval">Контакты</h2>
+        <a class="contacttext2" href="https://maps.google.com/?q=Оренбург, ул. Терешковой 10" target="_blank" rel="noopener noreferrer"><img src="/images/adress.png" alt="Иконка адреса">г. Оренбург, ул. Терешковой 10</a>
+        <a class="contacttext2" href="tel:+73532571788"><img src="/images/tell.png" alt="Иконка телефона">+7 (3532) 57-17-88 | +7 (3532) 60-12-59</a>
+        <a class="contacttext2" href="https://vk.com/orenburgkafe" target="_blank" rel="noopener noreferrer"><img src="/images/vkk.png" alt="Иконка ВК">orenburgkafe</a>
+        <a class="contacttext2" href="https://www.instagram.com/kafe.maestro?igsh=b2N4ZzA3OGcxd2hm" target="_blank" rel="noopener noreferrer"><img src="/images/instaa.png" alt="Иконка Инстаграмма">kafe.maestro</a>
+        </div>
+        <div class="clockpodval">
+        <h2 class="zagpodval">Часы работы</h2>
+        <p class="clocktext">Понедельник - Пятница: 09:00 - 17:00</p>
+        <p class="clocktext">Суббота - Воскресенье: Ввыходной</p>
+        </div>
+    </div>
+</footer>
+    <div class="modal-container" id="modalcontainer">
+        <div class="modalcontent">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h2 class="modalzag">Заявка отправлена!</h2>
+            <p class="modaltext">Ваша заявка успешно отправлена. Мы свяжемся с вами в ближайшее время.</p>
+            <button class="modalbtn" id="modalBtn">Отлично</button>
+        </div>
+    </div>
+    <div class="go-top"><img src="/images/strelka.png" alt="Стрелка прокрутки вверх"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе-столовая Maestro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temnaya.css">
+    <link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="shapka">
+        <img class="logo" src="images/logo.png" alt="Логотип">
+        <div class="text11"><span class="text22">Maestro</span></div>
+        <nav class="nav-menu">
+            <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+            <ul class="shapkatext">
+                <li class="text1"><a class="text2" href="glavnaya.html">Главная</a></li>
+                <li class="text1"><a class="text2" href="onas.html">О нас</a></li>
+                <li class="text1"><a class="text2" href="gor.html">Меню</a></li>
+                <li class="text111"><img class="text222 tema-ikonka" src="images/tema.png" alt="Смена темы" onclick="toggleTheme()"></li>
+            </ul>
+        </nav>
+    </div>
+</header> 
+<hr>  
+<main>
+<nav class="breadcrumbs" id="breadcrumbs">
+    <a href="glavnaya.html">Главная</a>
+    <span>/</span>
+    <a href="onas.html">О нас</a>
+</nav>
+    <div class="nasha-container">
+    <div class="nashatext">Наша история</div>
+    <hr class="nashalin">
+    <div class="istoria">
+        <p class="istoriatext">Кафе-столовая Maestro была основана в 2010 году с простой целью: создать место, где каждый гость почувствует себя как дома, наслаждаясь искусно приготовленными блюдами в уютной атмосфере. <br><br>Название "Maestro" выбрано не случайно. Как дирижер управляет оркестром, создавая гармонию, так и наши повара управляют вкусами, создавая кулинарные шедевры из простых ингредиентов.</p>
+        <img class="nasha1" src="/images/nasha1.png" alt="Фото Кафе Maestro">
+    </div>
+    <div class="filosofiya">
+        <img class="nasha2" src="/images/nasha2.png" alt="Фото готовки еды">
+        <p class="filosofiyatext">Наша философия: мы верим, что вкусная, сытная и <br> действительно качественная еда должна быть <br> доступна каждому. Поэтому в кафе-столовой Maestro <br> мы готовим с душой из свежих продуктов, щедро <br> накладываем порции, но при этом сохраняем <br> разумные цены — чтобы вы могли позволить себе <br> полноценный обед в уютной атмосфере без <br> компромиссов во вкусе и качестве.</p>
+    </div>
+    <div class="interier">
+        <p class="interiertext">Интерьер кафе-столовой Maestro <br>Наш интерьер создан в стиле «современная классика с домашним уютом». Мы сочетаем элегантные элементы с практичными решениями, чтобы каждый гость чувствовал себя комфортно — будь то деловая встреча, семейный обед или романтический ужин.</p>
+        <img class="nasha3" src="/images/nasha3.png" alt="Фото интерьера">
+    </div>
+    </div>
+</main>
+<hr class="liniyapodval">
+<footer>
+    <div class="footer-container">
+        <div class="kafepodval">
+        <h2 class="zagpodval">Кафе "Maestro"</h2>
+        <p class="cafepod">Изысканная кухня и уютная атмосфера в самом<br>центре города. Мы работаем для вас с 2010 года.</p>
+        </div>
+        <div class="contactpodval">
+        <h2 class="zagpodval">Контакты</h2>
+        <a class="contacttext2" href="https://maps.google.com/?q=Оренбург, ул. Терешковой 10" target="_blank" rel="noopener noreferrer"><img src="/images/adress.png" alt="Иконка адреса">г. Оренбург, ул. Терешковой 10</a>
+        <a class="contacttext2" href="tel:+73532571788"><img src="/images/tell.png" alt="Иконка телефона">+7 (3532) 57-17-88 | +7 (3532) 60-12-59</a>
+        <a class="contacttext2" href="https://vk.com/orenburgkafe" target="_blank" rel="noopener noreferrer"><img src="/images/vkk.png" alt="Иконка ВК">orenburgkafe</a>
+        <a class="contacttext2" href="https://www.instagram.com/kafe.maestro?igsh=b2N4ZzA3OGcxd2hm" target="_blank" rel="noopener noreferrer"><img src="/images/instaa.png" alt="Иконка Инстаграмма">kafe.maestro</a>
+        </div>
+        <div class="clockpodval">
+        <h2 class="zagpodval">Часы работы</h2>
+        <p class="clocktext">Понедельник - Пятница: 09:00 - 17:00</p>
+        <p class="clocktext">Суббота - Воскресенье: Ввыходной</p>
+        </div>
+    </div>
+</footer>
+<div class="go-top"><img src="/images/strelka.png" alt="Стрелка прокрутки вверх"></div>
+<script src="script.js"></script>
+</body>
+</html>
